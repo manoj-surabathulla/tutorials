@@ -34,6 +34,9 @@ const Dashboard = () => {
         <Link className="mr-8" to="/expense-tracker">
           Expense Tracker
         </Link>
+        <Link className="mr-8" to="/upload-file">
+          Upload
+        </Link>
       </div>
     </div>
   );

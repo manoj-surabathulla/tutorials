@@ -11,6 +11,7 @@ import DropdownComponent from "./pages/dropdown";
 import ManagementPage from "./pages/management";
 import EmployeeList from "./pages/management/employee-list";
 import Expense from "./pages/expense";
+import Upload from "./pages/upload";
 
 function App() {
   // async function requestPermission() {
@@ -45,6 +46,7 @@ function App() {
         <Route path="/management" element={<ManagementPage />} />
         <Route path="/management/employee" element={<EmployeeList />} />
         <Route path="/expense-tracker" element={<Expense />} />
+        <Route path="/upload-file" element={<Upload />} />
       </Routes>
     </Router>
   );
